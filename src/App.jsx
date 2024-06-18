@@ -12,6 +12,9 @@ import E from './components/SearchFilter'
 import F from './components/Sidebar'
 import G from './components/TransactionHistoryBody'
 import H from './components/TransactionHistoryListItem'
+import I from './components/DashboardContainer'
+import J from './components/InventoryContainer'
+import K from './components/TransactionHistoryContainer'
 
 function App() {
 
@@ -30,6 +33,9 @@ function App() {
           <Route path='/f' element={<F/>} />
           <Route path='/g' element={<G/>} />
           <Route path='/h' element={<H/>} />
+          <Route path='/i' element={<I/>} />
+          <Route path='/j' element={<J/>} />
+          <Route path='/k' element={<K/>} />
         </Routes>
       </DataProvider>
     </div>
