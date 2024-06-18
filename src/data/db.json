@@ -1,0 +1,34 @@
+{
+    "drugs": [
+        {
+            "id": 1,
+            "drugName": "Acetaminophen",
+            "description": "Commonly known as paracetamol, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
+            "quantity": 23,
+            "category": ["pain killer"],
+            "buyerId": 2,
+            "date": "Sun 19th May 2024",
+            "time": ""
+        },
+        {
+            "id": 2,
+            "drugName": "Adderall",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
+            "quantity": 230,
+            "category": ["stimulant"],
+            "buyerId": 4,
+            "date": "Mon 29th February 2024",
+            "time": ""
+        },
+        {
+            "id": 3,
+            "drugName": "Ativan",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione ullam labore commodi impedit.",
+            "quantity": 7,
+            "category": ["benzodiazepines"],
+            "buyerId": 30,
+            "date": "Wed 6th January 2024",
+            "time": ""
+        }
+    ]
+}
