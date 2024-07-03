@@ -1,4 +1,38 @@
 .dashboard-list-item{
-    background-color: cadetblue;
-    height: 100vh;
+    width: 100%;
+    height: 27.5rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin-top: 5px;
+}
+.dash-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #858781;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 0 0 5px;
+    align-items: center;
+    margin-top: 5px;
+}
+.dash-list div{
+    font-size: 18px;
+    display: flex;
+}
+.item-listing1{
+    flex: 1;
+}
+.item-listing2{
+    flex: 3;
+}
+.item-listing3{
+    flex: 5;
+}
+.item-listing4{
+    flex: 1;
+}
+.item-listing5{
+    flex: 1;
 }
